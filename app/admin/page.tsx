@@ -62,12 +62,12 @@ export default async function AdminPage() {
         <CardContent>
           <form className="space-y-4">
             <div className="space-y-2">
-              <Label htmlFor="siteName">Site Name</Label>
-              <Input id="siteName" defaultValue="CyberApp" />
+                <Label htmlFor="siteName">Site Name</Label>
+                <Input id="siteName" defaultValue="Ritu Maharjan" />
             </div>
             <div className="space-y-2">
-              <Label htmlFor="adminEmail">Admin Email</Label>
-              <Input id="adminEmail" type="email" defaultValue="admin@cyberapp.com" />
+            <Label htmlFor="adminEmail">Admin Email</Label>
+              <Input id="adminEmail" type="email" defaultValue="(replace-with-your-email@example.com)" />
             </div>
             <div className="space-y-2">
               <Label htmlFor="maintenanceMode">Maintenance Mode</Label>

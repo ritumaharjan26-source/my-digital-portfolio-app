@@ -36,11 +36,11 @@ export default async function Home() {
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-primary to-indigo-500">
-                  Securing Your Digital Future
+                  Hi — I'm Ritu Maharjan
                 </h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                  Expert cybersecurity solutions to protect your organization from evolving threats. Penetration
-                  testing, security audits, and incident response services.
+                  IT student at Victoria University, Sydney. Currently pursuing a Bachelor in IT with 2 years of study
+                  and hands-on academic projects in web development, networking, and databases.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -112,11 +112,11 @@ export default async function Home() {
       <section className="w-full py-12 md:py-24 lg:py-32 bg-background">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
-            <div className="space-y-2">
+              <div className="space-y-2">
               <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">Projects</div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Comprehensive Cybersecurity Solutions</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Academic Projects & Coursework</h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Protect you from cybersecurity attackers.
+                Selected academic projects, coursework, and skills developed during my Bachelor of IT studies.
               </p>
             </div>
           </div>
@@ -124,51 +124,51 @@ export default async function Home() {
             <Card className="bg-background border-primary/20">
               <CardHeader>
                 <AlertTriangle className="h-10 w-10 text-primary mb-2" />
-                <CardTitle>Penetration Testing</CardTitle>
+                <CardTitle>Coursework</CardTitle>
                 <CardDescription>
-                  Identify vulnerabilities before attackers do with our comprehensive penetration testing services.
+                  Core modules and lab work completed as part of the Bachelor of IT degree.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>Web Application Testing</li>
-                  <li>Network Infrastructure Testing</li>
-                  <li>Mobile Application Testing</li>
-                  <li>Social Engineering Assessments</li>
+                  <li>Web Development</li>
+                  <li>Computer Networks</li>
+                  <li>Databases</li>
+                  <li>Systems & Security Fundamentals</li>
                 </ul>
               </CardContent>
             </Card>
             <Card className="bg-background border-primary/20">
               <CardHeader>
                 <Shield className="h-10 w-10 text-primary mb-2" />
-                <CardTitle>Security Audits</CardTitle>
+                <CardTitle>Projects</CardTitle>
                 <CardDescription>
-                  Comprehensive assessment of your security posture against industry standards and best practices.
+                  Selected academic projects, assignments, and portfolio work from my studies.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>Compliance Assessments</li>
-                  <li>Security Architecture Review</li>
-                  <li>Cloud Security Assessment</li>
-                  <li>Risk Assessment</li>
+                  <li>Portfolio web apps</li>
+                  <li>Database-driven projects</li>
+                  <li>Networking labs</li>
+                  <li>Collaborative group work</li>
                 </ul>
               </CardContent>
             </Card>
             <Card className="bg-background border-primary/20">
               <CardHeader>
                 <FileCode className="h-10 w-10 text-primary mb-2" />
-                <CardTitle>Security Training</CardTitle>
+                <CardTitle>Skills</CardTitle>
                 <CardDescription>
-                  Empower your team with the knowledge to recognize and respond to security threats.
+                  Technical and soft skills developed during study and project work.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>Security Awareness Training</li>
-                  <li>Phishing Simulations</li>
-                  <li>Developer Security Training</li>
-                  <li>Incident Response Drills</li>
+                  <li>HTML, CSS, JavaScript</li>
+                  <li>Basic networking and databases</li>
+                  <li>Version control (Git)</li>
+                  <li>Team collaboration and problem solving</li>
                 </ul>
               </CardContent>
             </Card>
@@ -184,11 +184,12 @@ export default async function Home() {
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">Experience</div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  15+ Years of Cybersecurity Expertise
+                  Practical Tools & Skills
                 </h2>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
-                  With extensive experience in the cybersecurity industry, I&apos;ve helped organizations of all sizes
-                  protect their digital assets and infrastructure.
+                  Hands-on experience with common tools and platforms used in coursework and lab work — including
+                  Kali Linux for security testing, Vercel for deployments, and Visual Studio Code for development. I
+                  also practice incident detection and basic attack mitigation as part of my studies.
                 </p>
               </div>
               <ul className="grid gap-2 py-4">
@@ -196,25 +197,25 @@ export default async function Home() {
                   <div className="rounded-full bg-primary/10 p-1">
                     <Shield className="h-4 w-4 text-primary" />
                   </div>
-                  <span>Certified Information Systems Security Professional (CISSP)</span>
+                  <span>Kali Linux — penetration testing labs and security tooling</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <div className="rounded-full bg-primary/10 p-1">
                     <Shield className="h-4 w-4 text-primary" />
                   </div>
-                  <span>Certified Ethical Hacker (CEH)</span>
+                  <span>Vercel — deploying static and serverless projects</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <div className="rounded-full bg-primary/10 p-1">
                     <Shield className="h-4 w-4 text-primary" />
                   </div>
-                  <span>Offensive Security Certified Professional (OSCP)</span>
+                  <span>VS Code — development, debugging and extensions</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <div className="rounded-full bg-primary/10 p-1">
                     <Shield className="h-4 w-4 text-primary" />
                   </div>
-                  <span>Certified Cloud Security Professional (CCSP)</span>
+                  <span>Incident detection & basic attack mitigation (stopping attacks)</span>
                 </li>
               </ul>
               <div>

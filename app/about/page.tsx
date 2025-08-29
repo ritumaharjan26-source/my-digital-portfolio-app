@@ -12,8 +12,9 @@ export default function AboutPage() {
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-white">About Me</h1>
               <p className="max-w-[700px] text-gray-400 md:text-xl/relaxed">
-                Cybersecurity professional with over 15 years of experience protecting organizations from evolving
-                threats.
+                I'm Ritu Maharjan — an IT student at Victoria University, Sydney. I have 2 years of experience as a
+                Bachelor student majoring in IT, working on practical projects across web development, databases, and
+                networking.
               </p>
             </div>
           </div>
@@ -29,29 +30,20 @@ export default function AboutPage() {
           <div className="grid gap-10 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_500px]">
             <div className="flex flex-col justify-center space-y-6">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">John Smith</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Ritu Maharjan</h2>
                 <p className="text-xl text-muted-foreground">
-                  <span className="text-primary font-semibold">Cybersecurity Consultant & Penetration Tester</span>
+                  <span className="text-primary font-semibold">Bachelor of IT student — Victoria University, Sydney</span>
                 </p>
               </div>
               <div className="space-y-4">
                 <p className="text-muted-foreground">
-                  I am a dedicated cybersecurity professional with a passion for helping organizations strengthen their
-                  security posture and protect their valuable digital assets. With over 15 years of experience in the
-                  industry, I have worked with clients across various sectors, from financial services and healthcare to
-                  government and technology.
+                  I&apos;m focused on building practical skills through coursework and hands-on projects. My studies
+                  include web development, database systems, and networking labs, and I enjoy collaborating on group
+                  projects that solve real problems.
                 </p>
                 <p className="text-muted-foreground">
-                  My approach combines technical expertise with a deep understanding of business needs, allowing me to
-                  develop security solutions that are both effective and practical. I believe that cybersecurity is not
-                  just about implementing technical controls, but also about building a culture of security awareness
-                  and resilience.
-                </p>
-                <p className="text-muted-foreground">
-                  Throughout my career, I have helped organizations identify and address security vulnerabilities,
-                  implement robust security programs, and respond effectively to security incidents. I am committed to
-                  staying at the forefront of the rapidly evolving cybersecurity landscape and sharing my knowledge with
-                  clients and the broader security community.
+                  I&apos;m open to internship opportunities and collaborative projects where I can apply and grow my
+                  technical knowledge while contributing to meaningful outcomes.
                 </p>
               </div>
             </div>
@@ -61,7 +53,7 @@ export default function AboutPage() {
                 <div className="relative overflow-hidden rounded-xl border border-primary/20 bg-background p-2">
                   <Image
                     src="/cyber-guardian.png"
-                    alt="John Smith - Cybersecurity Professional"
+                    alt="Ritu Maharjan - IT Student"
                     width={500}
                     height={500}
                     className="rounded-lg object-cover w-full h-full"
@@ -73,15 +65,15 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Certifications Section */}
+      {/* Tools & Technologies Section */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/40">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-10">
             <div className="space-y-2">
-              <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">Credentials</div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Certifications & Education</h2>
+              <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">Education</div>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Tools & Technologies</h2>
               <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed">
-                Professional qualifications and academic background that inform my expertise.
+                Tools and platforms I use regularly during coursework and projects.
               </p>
             </div>
           </div>
@@ -92,12 +84,12 @@ export default function AboutPage() {
                 <div className="bg-primary/10 p-3 w-fit rounded-lg mb-4">
                   <Award className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle>CISSP</CardTitle>
-                <CardDescription>Certified Information Systems Security Professional</CardDescription>
+                <CardTitle>Kali Linux</CardTitle>
+                <CardDescription>Penetration testing & security lab tooling</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  Globally recognized certification demonstrating expertise across eight security domains.
+                  Used for lab exercises and learning security tools (nmap, burpsuite, metasploit, etc.).
                 </p>
               </CardContent>
             </Card>
@@ -107,12 +99,12 @@ export default function AboutPage() {
                 <div className="bg-primary/10 p-3 w-fit rounded-lg mb-4">
                   <Award className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle>OSCP</CardTitle>
-                <CardDescription>Offensive Security Certified Professional</CardDescription>
+                <CardTitle>Vercel</CardTitle>
+                <CardDescription>Deployments & hosting</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  Hands-on penetration testing certification proving practical exploitation skills.
+                  Deploy static and serverless projects, continuous deploys from Git branches.
                 </p>
               </CardContent>
             </Card>
@@ -122,12 +114,12 @@ export default function AboutPage() {
                 <div className="bg-primary/10 p-3 w-fit rounded-lg mb-4">
                   <Award className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle>CCSP</CardTitle>
-                <CardDescription>Certified Cloud Security Professional</CardDescription>
+                <CardTitle>Visual Studio Code</CardTitle>
+                <CardDescription>Development environment</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  Specialized certification in cloud security architecture, design, and operations.
+                  Primary editor for coding, debugging, and using extensions for TypeScript, Tailwind, and Git.
                 </p>
               </CardContent>
             </Card>
@@ -137,12 +129,12 @@ export default function AboutPage() {
                 <div className="bg-primary/10 p-3 w-fit rounded-lg mb-4">
                   <GraduationCap className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle>M.S. Cybersecurity</CardTitle>
-                <CardDescription>Stanford University</CardDescription>
+                <CardTitle>Incident Handling</CardTitle>
+                <CardDescription>Detection & basic mitigation</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  Advanced degree with focus on security architecture and threat intelligence.
+                  Practice identifying suspicious activity and applying basic containment steps learned in labs.
                 </p>
               </CardContent>
             </Card>
@@ -245,15 +237,15 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Experience Timeline */}
+      {/* Academic Projects & Timeline */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/40">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-10">
             <div className="space-y-2">
               <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">Career</div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Professional Experience</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Academic Projects</h2>
               <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed">
-                My journey through the cybersecurity industry.
+                A selection of coursework and group projects completed during my Bachelor of IT.
               </p>
             </div>
           </div>
@@ -265,17 +257,16 @@ export default function AboutPage() {
               </div>
               <div className="w-full md:w-[calc(50%-4rem)] bg-background p-5 rounded-lg border border-primary/20 shadow-sm">
                 <div className="flex items-center justify-between space-x-2 mb-1">
-                  <h3 className="font-bold text-lg">Principal Security Consultant</h3>
+                  <h3 className="font-bold text-lg">Group Web App Project</h3>
                   <time className="font-semibold text-primary flex items-center">
                     <Calendar className="h-4 w-4 mr-1" />
-                    2018 - Present
+                    2024
                   </time>
                 </div>
-                <p className="text-muted-foreground mb-2">CyberShield Consulting</p>
+                <p className="text-muted-foreground mb-2">Coursework project</p>
                 <p className="text-sm text-muted-foreground">
-                  Leading complex security assessments and penetration tests for Fortune 500 clients. Developing custom
-                  security frameworks and methodologies. Mentoring junior security consultants and delivering executive
-                  briefings on critical security findings.
+                  Built a full-stack web application using React/Next.js, integrated a Postgres database, and deployed
+                  to Vercel. Focus areas included authentication, responsive UI, and version control with Git.
                 </p>
               </div>
             </div>
@@ -286,17 +277,16 @@ export default function AboutPage() {
               </div>
               <div className="w-full md:w-[calc(50%-4rem)] bg-background p-5 rounded-lg border border-primary/20 shadow-sm">
                 <div className="flex items-center justify-between space-x-2 mb-1">
-                  <h3 className="font-bold text-lg">Senior Security Engineer</h3>
+                  <h3 className="font-bold text-lg">Networking & Security Labs</h3>
                   <time className="font-semibold text-primary flex items-center">
                     <Calendar className="h-4 w-4 mr-1" />
-                    2014 - 2018
+                    2023 - 2024
                   </time>
                 </div>
-                <p className="text-muted-foreground mb-2">SecureTech Solutions</p>
+                <p className="text-muted-foreground mb-2">Practical lab work</p>
                 <p className="text-sm text-muted-foreground">
-                  Designed and implemented security architectures for cloud migrations. Led vulnerability management
-                  program and security operations center (SOC) initiatives. Conducted internal security assessments and
-                  developed remediation strategies.
+                  Hands-on labs using Kali Linux and network simulation tools to learn scanning, enumeration, and
+                  basic incident response techniques.
                 </p>
               </div>
             </div>
@@ -307,17 +297,15 @@ export default function AboutPage() {
               </div>
               <div className="w-full md:w-[calc(50%-4rem)] bg-background p-5 rounded-lg border border-primary/20 shadow-sm">
                 <div className="flex items-center justify-between space-x-2 mb-1">
-                  <h3 className="font-bold text-lg">Security Analyst</h3>
+                  <h3 className="font-bold text-lg">Ongoing Studies</h3>
                   <time className="font-semibold text-primary flex items-center">
                     <Calendar className="h-4 w-4 mr-1" />
-                    2010 - 2014
+                    2023 - Present
                   </time>
                 </div>
-                <p className="text-muted-foreground mb-2">Global Financial Services</p>
+                <p className="text-muted-foreground mb-2">Bachelor of IT</p>
                 <p className="text-sm text-muted-foreground">
-                  Performed security monitoring and incident response for a major financial institution. Conducted
-                  vulnerability assessments and security awareness training. Assisted in developing security policies
-                  and procedures.
+                  Continuing coursework in software development, databases, networks, and security fundamentals.
                 </p>
               </div>
             </div>

@@ -9,10 +9,10 @@ export function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
               <Shield className="h-6 w-6 text-primary" />
-              <span className="text-lg font-bold">CyberShield</span>
+              <span className="text-lg font-bold">Ritu Maharjan</span>
             </Link>
             <p className="text-sm text-muted-foreground">
-              Professional cybersecurity services to protect your digital assets and infrastructure.
+              IT student at Victoria University, Sydney — portfolio of projects and coursework.
             </p>
           </div>
           <div>
@@ -62,7 +62,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} CyberShield. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Ritu Maharjan. All rights reserved.</p>
         </div>
       </div>
     </footer>

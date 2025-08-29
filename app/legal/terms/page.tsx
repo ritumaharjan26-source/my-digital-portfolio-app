@@ -24,19 +24,18 @@ export default function TermsOfServicePage() {
               <h2 className="text-2xl font-bold">Introduction</h2>
               <p className="text-muted-foreground">Last Updated: April 22, 2025</p>
               <p>
-                These Terms of Service (&quot;Terms&quot;) govern your access to and use of the CyberShield website and services.
+                These Terms of Service (&quot;Terms&quot;) govern your access to and use of this website and related services.
                 Please read these Terms carefully before using our services.
               </p>
               <p className="mb-4">
-                By accessing or using the Service, you agree to be bound by these Terms. If you disagree with any part of the terms, then you may not access the Service. Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users, and others who access or use the Service. We reserve the right to update or modify these Terms at any time without prior notice. Your continued use of the Service after any such changes constitutes your acceptance of the new Terms. Please review this page periodically for updates. The terms &quot;we&quot;, &quot;us&quot;, and &quot;our&quot; refer to CyberApp Inc.
+                By accessing or using the Service, you agree to be bound by these Terms. If you disagree with any part of the terms, then you may not access the Service. Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users, and others who access or use the Service. We reserve the right to update or modify these Terms at any time without prior notice. Your continued use of the Service after any such changes constitutes your acceptance of the new Terms. Please review this page periodically for updates. The terms "we", "us", and "our" refer to the owner of this site, Ritu Maharjan.
               </p>
             </div>
 
             <div className="space-y-4">
               <h2 className="text-2xl font-bold">Use of Our Services</h2>
               <p>
-                Our services are intended for users who are at least 18 years of age. By using our services, you
-                represent and warrant that you are of legal age to form a binding contract with CyberShield.
+                Our services are intended for users who are at least 18 years of age. By using our services, you represent and warrant that you are of legal age to form a binding contract.
               </p>
               <p>
                 You are responsible for maintaining the confidentiality of your account and password and for restricting
@@ -48,9 +47,7 @@ export default function TermsOfServicePage() {
             <div className="space-y-4">
               <h2 className="text-2xl font-bold">Intellectual Property</h2>
               <p>
-                The service and its original content, features, and functionality are and will remain the exclusive
-                property of CyberShield and its licensors. The service is protected by copyright, trademark, and other
-                laws of both the United States and foreign countries.
+                The service and its original content, features, and functionality are the property of the site owner. The service is protected by applicable copyright and other laws.
               </p>
               <p>
                 Our trademarks and trade dress may not be used in connection with any product or service without the
@@ -80,11 +77,7 @@ export default function TermsOfServicePage() {
                 CyberShield.
               </p>
               <p>
-                CyberShield has no control over, and assumes no responsibility for, the content, privacy policies, or
-                practices of any third-party websites or services. You further acknowledge and agree that CyberShield
-                shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to
-                be caused by or in connection with the use of or reliance on any such content, goods, or services
-                available on or through any such websites or services.
+                This site has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third-party websites or services. The site owner shall not be responsible or liable for any damage or loss caused by use of third-party sites or services.
               </p>
             </div>
 
@@ -134,15 +127,11 @@ export default function TermsOfServicePage() {
               <h2 className="text-2xl font-bold">Contact Us</h2>
               <p>If you have any questions about these Terms, please contact us at:</p>
               <p>
-                CyberShield
+                Ritu Maharjan
                 <br />
-                123 Security Street
+                Victoria University, Sydney
                 <br />
-                Cyber City, CC 12345
-                <br />
-                Email: legal@cybershield.com
-                <br />
-                Phone: +1 (555) 123-4567
+                Email: (replace-with-your-email@example.com)
               </p>
             </div>
           </div>

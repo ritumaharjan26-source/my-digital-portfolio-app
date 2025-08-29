@@ -84,15 +84,13 @@ export default function PrivacyPolicyPage() {
         <h2 className="mb-4 text-2xl font-bold">Contact Us</h2>
         <p className="mb-4">If you have questions or comments about this Privacy Policy, please contact us at:</p>
         <p>
-          CyberShield
+          Ritu Maharjan
           <br />
-          123 Security Street
+          Victoria University, Sydney
           <br />
-          Cyber City, CC 12345
+          Email: (replace-with-your-email@example.com)
           <br />
-          Email: privacy@cybershield.com
-          <br />
-          Phone: +1 (555) 123-4567
+          Phone: (optional)
         </p>
       </section>
     </div>

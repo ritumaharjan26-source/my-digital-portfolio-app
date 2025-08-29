@@ -60,7 +60,7 @@ export default function CookiePolicyPage() {
       <section>
         <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
         <p className="mb-4">
-          If you have any questions about our use of cookies or this Cookie Policy, please contact us at <a href="mailto:privacy@cyberapp.com" className="text-blue-600 hover:underline">privacy@cyberapp.com</a>. Your privacy is important to us, and we&apos;re committed to being transparent about how we use cookies.
+          If you have any questions about our use of cookies or this Cookie Policy, please contact us at <a href="mailto:(replace-with-your-email@example.com)" className="text-blue-600 hover:underline">(replace-with-your-email@example.com)</a>. Your privacy is important to us, and we&apos;re committed to being transparent about how we use cookies.
         </p>
       </section>
     </div>

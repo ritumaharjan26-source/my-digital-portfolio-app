@@ -18,8 +18,8 @@ import { AuthSync } from "@/components/auth-sync";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "CyberShield | Cybersecurity Portfolio",
-  description: "Professional portfolio showcasing expertise in cybersecurity",
+  title: "Ritu Maharjan | IT Student Portfolio",
+  description: "Portfolio of projects and coursework by Ritu Maharjan, IT student at Victoria University, Sydney",
     generator: 'v0.dev'
 }
 
