@@ -9,8 +9,9 @@ import Link from "next/link";
 import { Database } from "lucide-react";
 
 export default async function AdminPage() {
-  // Assuming isAdmin is a valid function to protect the route
-  if (!isAdmin) {
+  // Ensure we call the helper and perform the server-side admin check
+  const userIsAdmin = await isAdmin();
+  if (!userIsAdmin) {
     return (
       <div className="container py-12">
         <p>Unauthorized</p>

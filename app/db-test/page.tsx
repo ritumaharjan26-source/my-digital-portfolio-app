@@ -1,9 +1,20 @@
 import { checkDatabaseStatus } from "@/app/actions/database";
+import { isAdmin } from "@/lib/auth";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 
 export default async function DbTestPage() {
+  // Server-side guard: only allow admins to view this page
+  const userIsAdmin = await isAdmin();
+  if (!userIsAdmin) {
+    return (
+      <div className="container py-12">
+        <p>Unauthorized</p>
+      </div>
+    );
+  }
+
   const result = await checkDatabaseStatus();
 
   return (

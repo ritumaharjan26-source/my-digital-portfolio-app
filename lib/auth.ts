@@ -114,13 +114,20 @@ export async function syncUserWithDatabase(email: string, name: string = ''): Pr
       .from(users);
     
     const isFirstUser = totalUsers[0]?.count === '0';
+
+    // Require an explicit opt-in environment variable before auto-assigning admin
+    // This prevents accidental admin takeover in public forks or deploys.
+    const allowAutoAdmin = process.env.ENABLE_FIRST_USER_ADMIN === 'true';
+    if (isFirstUser && !allowAutoAdmin) {
+      console.warn('First-user admin auto-assignment is disabled. Set ENABLE_FIRST_USER_ADMIN=true to enable it.');
+    }
     
     // Insert the new user with appropriate role
     await db.insert(users).values({
       email,
       name,
       clerkId,
-      role: isFirstUser ? 'admin' : 'user',
+      role: isFirstUser && allowAutoAdmin ? 'admin' : 'user',
       isFirstUser,
     });
     
