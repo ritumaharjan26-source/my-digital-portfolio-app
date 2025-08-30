@@ -19,5 +19,39 @@
 @layer base {
   /* This line triggered your error before; now it will succeed */
   * { @apply border-border; }
-  body { @apply bg-background text-foreground; }
+  html, body { 
+    @apply text-foreground;
+    /* Use the CSS token set in :root / .dark for a color fallback */
+    background-color: hsl(var(--background));
+    /* AI-style subtle base gradient for light mode */
+    background-image:
+      radial-gradient(circle at 10% 10%, rgba(59,130,246,0.06), transparent 8%),
+      radial-gradient(circle at 90% 80%, rgba(168,85,247,0.04), transparent 12%),
+      linear-gradient(180deg, rgba(245,248,255,0.98) 0%, rgba(235,245,255,0.98) 100%);
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+    min-height: 100%;
+  }
+
+  /* AI-style dark background: subtle neon gradients and a deep base */
+  .dark body {
+    background-color: #02020a;
+    background-image:
+      radial-gradient(circle at 12% 14%, rgba(59,130,246,0.06), transparent 10%),
+      radial-gradient(circle at 88% 82%, rgba(168,85,247,0.06), transparent 14%),
+      linear-gradient(180deg, rgba(2,6,23,1) 0%, rgba(1,2,10,1) 100%),
+      linear-gradient(120deg, rgba(11,78,161,0.08), rgba(139,92,246,0.06));
+    background-attachment: fixed;
+    background-size: 120% 120%, cover;
+    background-blend-mode: screen, overlay;
+    animation: ai-bg-pan 18s linear infinite;
+  }
+
+  /* Subtle slow animation to make the neon gradients feel alive */
+  @keyframes ai-bg-pan {
+    0% { background-position: 0% 50%, 100% 50%, 50% 0%, 0% 0%; }
+    50% { background-position: 100% 50%, 0% 50%, 50% 100%, 100% 100%; }
+    100% { background-position: 0% 50%, 100% 50%, 50% 0%, 0% 0%; }
+  }
 }
