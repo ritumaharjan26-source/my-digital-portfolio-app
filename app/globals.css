@@ -7,11 +7,11 @@
     /* minimal tokens so classes like border-border work */
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
-    --border: 214.3 31.8% 91.4%;
-  }
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    /* Blue-first AI-style subtle base gradient for light mode */
+    background-image:
+      radial-gradient(circle at 12% 14%, rgba(59,130,246,0.08), transparent 8%),
+      radial-gradient(circle at 88% 82%, rgba(6,182,212,0.06), transparent 12%),
+      linear-gradient(180deg, rgba(235,245,255,1) 0%, rgba(220,235,255,1) 100%);
     --border: 217.2 32.6% 17.5%;
   }
 }
@@ -36,15 +36,15 @@
 
   /* AI-style dark background: subtle neon gradients and a deep base */
   .dark body {
-    background-color: #02020a;
+    background-color: #001226;
     background-image:
-      radial-gradient(circle at 12% 14%, rgba(59,130,246,0.06), transparent 10%),
-      radial-gradient(circle at 88% 82%, rgba(168,85,247,0.06), transparent 14%),
-      linear-gradient(180deg, rgba(2,6,23,1) 0%, rgba(1,2,10,1) 100%),
-      linear-gradient(120deg, rgba(11,78,161,0.08), rgba(139,92,246,0.06));
+      radial-gradient(circle at 10% 15%, rgba(6,78,170,0.12), transparent 12%),
+      radial-gradient(circle at 85% 75%, rgba(6,182,212,0.10), transparent 16%),
+      linear-gradient(180deg, rgba(0,10,30,1) 0%, rgba(0,18,38,1) 100%),
+      linear-gradient(120deg, rgba(3,105,161,0.06), rgba(6,182,212,0.04));
     background-attachment: fixed;
-    background-size: 120% 120%, cover;
-    background-blend-mode: screen, overlay;
+    background-size: 140% 140%, cover;
+    background-blend-mode: overlay, screen;
     animation: ai-bg-pan 18s linear infinite;
   }
 
